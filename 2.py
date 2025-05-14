@@ -25,7 +25,7 @@ class Worker:
     def __str__(self):
         return f"Worker: {self.__name} {self.__surname}, Rate: {self.__rate}, Days: {self.__days}, Salary: {self.get_salary()}"
 
-worker = Worker("Влад", "Курденевич", 3200, 20)
+worker = Worker("Сергей", "Иванов", 3200, 20)
 
 
 print(f"Имя: {worker.get_name()}")
